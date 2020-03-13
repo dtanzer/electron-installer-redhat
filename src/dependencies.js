@@ -5,6 +5,8 @@ const spawn = require('./spawn')
 
 const dependencyMap = {
   atspi: 'at-spi2-core',
+  drm: 'libdrm',
+  gbm: 'mesa-libgbm',
   gconf: 'GConf2',
   glib2: 'glib2',
   gtk2: 'gtk2',
@@ -16,6 +18,7 @@ const dependencyMap = {
   nss: '(nss or mozilla-nss)',
   trashCli: 'trash-cli',
   uuid: '(libuuid or libuuid1)',
+  xcbDri3: 'libxcb',
   xdgUtils: 'xdg-utils',
   xss: 'libXScrnSaver',
   xtst: '(libXtst or libXtst6)'
